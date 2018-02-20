@@ -60,7 +60,19 @@ We want to add an objective, so we type:
 ```
 and we get:
 ```
-/scoreboard objectives addd
+/scoreboard objectives add <name> <creteriaType> [displayName...]
+```
+We want it to keep track of our deaths, and the display name will be deaths, so we type:
+```
+/scoreboard objectives add deaths deathCount deaths
+```
+Now, we need to set its display, we chose sidebar, but there are many. We type:
+```
+/sccoreboard objectives setdisplay
+```
+, and get:
+```
+scoreboard objectives setdisplay
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
