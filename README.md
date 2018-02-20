@@ -72,7 +72,13 @@ Now, we need to set its display, we chose sidebar, but there are many. We type:
 ```
 , and get:
 ```
-scoreboard objectives setdisplay
+scoreboard objectives setdisplay <slot> [objective]
+```
+Like we said, we want sidebar, so we type:
+```
+/scoreboard objectives add sidebar deaths
+```
+As far as we can see, there's nothing there! Thats because we don't have any players added. If you want, you could do the setdisplay thing again, but with list. You could also do scoreboard pleyers, but that would take up to much space.
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
