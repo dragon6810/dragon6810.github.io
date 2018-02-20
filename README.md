@@ -24,10 +24,23 @@ summon summons an entity (an entity is anything that moves in the game, even an 
 At [grahamedgecombe](https://minecraft-ids.grahamedgecombe.com/entities) there is a good set of entities.
 For X Y Z lets use **relative coordinates**. **Relative coordinates** are coordinates, but what ever is executing the command thinks it is in the center of the world. The command block/player has to have tildes (~ ~ ~) for it to use **relative coordinates**. If you don't want to target the thing that the command is being executed in, you can type in the number of blocks in that direction after the tildes with no spaces.
 
-
-- Bulleted
-- List
-
+## Title
+Titles are giant words that pop up into a player's screen. we type in /title, and here's what we get:
+```
+/title <player> title:subtitle:actionbar:clear:reset:times...
+```
+We see the elipses (...), wich indicates there's more to it. Right now we want a title to all players, so here's what we type:
+```
+tile @a title
+```
+and heres what it gives us:
+```
+title <player> <raw json title>
+```.
+Let's say we want to make it say in red "hello". We type:
+```
+/title @a title ["",{"text":"Hello","clor":"red"},""]
+```.
 1. Numbered
 2. List
 
