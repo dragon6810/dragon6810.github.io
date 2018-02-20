@@ -37,11 +37,10 @@ and heres what it gives us:
 
 ```
 title <player> <raw json title>
-```
-Let's say we want to make it say in red "hello". We type:
+```.Let's say we want to make it say in red "hello". We type:
  ```
- title @a title ["",{"text":"Hello","color":"red"},""]
-```
+ /title @a title ["",{"text":"Hello","color":"red"},""]
+```.
 ## scoreboard
 Scoreboard is a good way to keep track of what's going on  in the game. We type in /scoreboard, and here's what we get:
 ```
@@ -54,31 +53,19 @@ We know by the elipses there's more; but let's focus the command. We want to add
 ```
 /scoreboard objectives <list:add:remove:setdisplay>...
 ```
-We want to add an objective, so we type:
+We want to add an objective, so we type in:
 ```
 /scoreboard objectives add
 ```
-and we get:
+, and here's what we get:
 ```
-/scoreboard objectives add <name> <creteriaType> [displayName...]
+/scoreboard objectives add <name> <criteriaType> [displayName...]
+```.
+We want to keep track of our deaths, so we type:
 ```
-We want it to keep track of our deaths, and the display name will be deaths, so we type:
-```
-/scoreboard objectives add deaths deathCount deaths
-```
-Now, we need to set its display, we chose sidebar, but there are many. We type:
-```
-/sccoreboard objectives setdisplay
-```
-, and get:
-```
-scoreboard objectives setdisplay <slot> [objective]
-```
-Like we said, we want sidebar, so we type:
-```
-/scoreboard objectives add sidebar deaths
-```
-As far as we can see, there's nothing there! Thats because we don't have any players added. If you want, you could do the setdisplay thing again, but with list. You could also do scoreboard pleyers, but that would take up to much space.
+/scoreboard obbjectives add deaths deathCount deaths
+```.
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
