@@ -42,9 +42,15 @@ title <player> <raw json title>
  /title @a title ["",{"text":"Hello","color":"red"},""]
 ```.
 ## scoreboard
-
-**Bold** and _Italic_ and `Code` text
-
+Scoreboard is a good way to keep track of what's going on  in the game. We type in /scoreboard, and here's what we get:
+```
+/scoreboard <objectives:players:teams>...
+```
+We know by the elipses there's more; but let's focus the command. We want to add an objective, so let's type
+```
+/scoreboard objectives
+```, and here's what we get:
+```
 [Link](url) and ![Image](src)
 ```
 
