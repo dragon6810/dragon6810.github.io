@@ -67,8 +67,11 @@ We want to keep track of our deaths, so we type:
 ```.
 Now, we need to set its display. We type:
 ```
-scoreboard objectives setdisplay
+/scoreboard objectives setdisplay
 ```, and it gives us:
+```
+/scoreboard objectives setdisplay <slot> [objective]
+```
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
