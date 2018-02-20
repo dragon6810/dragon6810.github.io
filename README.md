@@ -72,7 +72,18 @@ Now, we need to set its display. We type:
 ```
 /scoreboard objectives setdisplay <slot> [objective]
 ```
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+There are many slots, but let's use sidebar. We type:
+```
+/scoreboard objectives setdisplay sidebar deaths
+```.
+As far as we can see, nothing's there! That's because it has no players to list! Ypu can do the same setdisplay, but with list and press tab; or you can do 
+```
+/scoreboard players
+```,
+But if you made it this far, the **syntax** should be easy enough to understand.
+
+## Execute
+
 
 ### Jekyll Themes
 
