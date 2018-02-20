@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+# Command Block Language
 
-You can use the [editor on GitHub](https://github.com/dragon6810/dragon6810.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is my introduction to the [Minecraft Command Languag](https://minecraft.gamepedia.com/Command_Blocke).
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
