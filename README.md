@@ -9,7 +9,7 @@ A command block is a block that you can insert a special code that mojang create
 ## The Different Types Of Command Blocks
 There are 3 types of command blocks and each one has it's own property. Here they Are:
 - Impulse command blocks are the default, and the only ones in 1.8. They simply execute the command once, and nothing else.
-- Chain command blocks act as a chain. (Hence it's name). The arrow points in the direction that the redstone source will    come out of, so make sure that's where you put your next command block. 
+- Chain command blocks act as a chain. (Hence its name). The arrow points in the direction that the redstone source will    come out of, so make sure that's where you put your next command block. 
 - Repeating command blocks repeat the command on always active, or a constant redstone signal if on needs redstone.
 
 ## DataTags
@@ -21,8 +21,8 @@ summon summons an entity (an entity is anything that moves in the game, even an 
 ```
 /summon <EntityName> [X] [Y] [Z] [dataTag]
 ``` 
-
-
+At [grahamedgecombe](https://minecraft-ids.grahamedgecombe.com/entities)there is a good set of entities.
+For X Y Z lets use **relative coordinates**. **Relative coordinates** are coordinates, but what ever is executing the command thinks it is in the center of the world. The command block/player has to have tildes (~ ~ ~) for it to use **relative coordinates**. If you don't want to target the thing that the command is being executed in, you can type in the number of blocks in that direction after the tildes with no spaces.
 
 
 - Bulleted
