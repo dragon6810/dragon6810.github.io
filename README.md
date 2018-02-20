@@ -1,6 +1,6 @@
 # Command Block Language
-
-This is my introduction to the [Minecraft Command Languag](https://minecraft.gamepedia.com/Command_Blocke).
+## Gamepedia
+Before we jump right into this, at the [minecraft gamepedia](https://minecraft.gamepedia.com/Command_Block) there is a site that would be wise to know.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
