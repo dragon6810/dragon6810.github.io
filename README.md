@@ -37,13 +37,11 @@ and heres what it gives us:
 
 ```
 title <player> <raw json title>
-```.
-Let's say we want to make it say in red "hello". We type:
 ```
-title @a title ["",{"text":"Hello","color":"red"},""]
+Let's say we want to make it say in red "hello". We type:
  ```
- 
-```.
+ title @a title ["",{"text":"Hello","color":"red"},""]
+```
 ## scoreboard
 Scoreboard is a good way to keep track of what's going on  in the game. We type in /scoreboard, and here's what we get:
 ```
