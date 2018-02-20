@@ -37,7 +37,8 @@ and heres what it gives us:
 
 ```
 title <player> <raw json title>
-```.Let's say we want to make it say in red "hello". We type:
+```.
+Let's say we want to make it say in red "hello". We type:
 ```
 title @a title ["",{"text":"Hello","color":"red"},""]
  ```
