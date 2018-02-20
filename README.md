@@ -11,8 +11,9 @@ There are 3 types of command blocks and each one has it's own property. Here the
 - Impulse command blocks are the default, and the only ones in 1.8. They simply execute the command once, and nothing else.
 - Chain command blocks act as a chain. (Hence it's name). The arrow points in the direction that the redstone source will    come out of, so make sure that's where you put your next command block. 
 - Repeating command blocks repeat the command on always active, or a constant redstone signal if on needs redstone.
+
 ##DataTags
-Some commands can inclued dataTags
+Some commands can inclued dataTags. DataTags are special NBT tags to add to some commands. 
 
 
 - Bulleted
