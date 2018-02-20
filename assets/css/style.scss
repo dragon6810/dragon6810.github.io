@@ -2,3 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+
+pre,
+code {
+    ...
+    color: #eef;
+}
