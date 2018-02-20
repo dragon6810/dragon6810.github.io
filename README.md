@@ -52,9 +52,15 @@ We know by the elipses there's more; but let's focus the command. We want to add
 /scoreboard objectives
 ```, and here's what we get:
 ```
-[Link](url) and ![Image](src)
+/scoreboard objectives <list:add:remove:setdisplay>...
 ```
-
+We want to add an objective, so we type:
+```
+/scoreboard objectives add
+```
+and we get:
+```
+/scoreboard objectives addd
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
