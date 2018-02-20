@@ -1,15 +1,15 @@
 # Command Block Language
+
 ## Gamepedia
 Before we jump right into this, at the [minecraft gamepedia](https://minecraft.gamepedia.com/Command_Block) there is a site that would be wise to know.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## What Is A Command Block?
+A command block is a block that you can insert a special code that mojang created. A command block can be powered by redstone, which can be useful in minigames or servers. Although a command block doesn't have a limit of characters, chat has a limit of 100 characters.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
+## The Different Types Of Command Blocks
+There are 3 types of command blocks and each one has it's own property. Here they Are:
+-Impulse command blocks are the default, and the only ones in 1.8. They simply execute the command once, and nothing else.
+-Chain command blocks act as a chain. (Hence it's name). The arrow points in the direction that the redstone source will come out of, so make sure that's where you put your next command block.
 
 # Header 1
 ## Header 2
