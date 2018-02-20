@@ -22,7 +22,7 @@ summon summons an entity (an entity is anything that moves in the game, even an 
 /summon <EntityName> [X] [Y] [Z] [dataTag]
 ``` 
 At [grahamedgecombe](https://minecraft-ids.grahamedgecombe.com/entities) there is a good set of entities.
-For X Y Z lets use **relative coordinates**. **Relative coordinates** are coordinates, but what ever is executing the command thinks it is in the center of the world. The command block/player has to have tildes (~ ~ ~) for it to use **relative coordinates**. If you don't want to target the thing that the command is being executed in, you can type in the number of blocks in that direction after the tildes with no spaces.
+For X Y Z lets use **relative coordinates**. **Relative coordinates** are coordinates, but what ever is executing the command thinks it is in the center of the world. The command block/player has to have tildes (~ ~ ~) for it to use **relative coordinates**. If you don't want to target the thing that the command is being executed in, you can type in the number of blocks in that direction after the tilde with no spaces.
 
 ## Title
 Titles are giant words that pop up into a player's screen. we type in /title, and here's what we get:
@@ -65,7 +65,10 @@ We want to keep track of our deaths, so we type:
 ```
 /scoreboard obbjectives add deaths deathCount deaths
 ```.
-
+Now, we need to set its display. We type:
+```
+scoreboard objectives setdisplay
+```, and it gives us:
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
