@@ -41,8 +41,7 @@ Let's say we want to make it say in red "hello". We type:
 ```
 /title @a title ["",{"text":"Hello","clor":"red"},""]
 ```.
-1. Numbered
-2. List
+## scoreboard
 
 **Bold** and _Italic_ and `Code` text
 
