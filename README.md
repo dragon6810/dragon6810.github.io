@@ -76,18 +76,18 @@ We want to add an objective, so we type in:
 ```
 /scoreboard objectives add <name> <criteriaType> [displayName...]
 
-```.
+```
+
 We want to keep track of our deaths, so we type:
 
 ```
 /scoreboard obbjectives add deaths deathCount deaths
-```.
+```
 
 Now, we need to set its display. We type:
 
 ```
 /scoreboard objectives setdisplay
-
 ```
 
 , and it gives us:
