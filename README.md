@@ -111,7 +111,10 @@ As far as we can see, nothing's there! That's because it has no players to list.
 ,but if you made it this far, the **syntax** should be easy enough to understand.
 
 ## Execute
-You might somtimes want to only execute a command if the command block detects something, or you might want to have something have near to a player, regaurdless of their location. The anwser? Execute.
+You might somtimes want to only execute a command if the command block detects something, or you might want to have something have near to a player, regaurdless of their location. The anwser? Execute. There are two versions of execute here they are:
+
+```
+/execute <entity> 
 
 ### Jekyll Themes
 
