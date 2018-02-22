@@ -111,15 +111,22 @@ As far as we can see, nothing's there! That's because it has no players to list.
 But if you made it this far, the **syntax** should be easy enough to understand.
 
 ## Execute
-You might somtimes want to only **execute** a command if the command block detects something, or you might want to have something have near to a player, regardless of their location. The answer? **Execute.** There are two versions of execute here they are:
+You might sometimes want to only **execute** a command if the command block detects something, or you might want to have something have near to a player, regardless of their location. The answer? **Execute.** There are two versions of execute here they are:
 
 ```
 /execute <entity> <x> <y> <z> <command> OR /execute <entity> <x> <y> <z> detect <x> <y> <z> <block> <datValue:-1:state:*> <command>
 ```
 
-The first **execute** command can detect where an **entity** is, an execute the command based on that. The second **execute** command is like a detecter for blocks, and we'll cover those later. If there isn't a block state, just type `*`.
+The first **execute** command can detect where an **entity** is, an execute the command based on that. The second **execute** command is like a detecter for blocks, and we'll cover those later.
 
-### Jekyll Themes
+## DataValues
+If you want to get a color of glass, like red, you wouldn't type
+
+```
+/give @p  minecraft:red_glass
+```
+
+You'd use **dataValues**. **DataValues** specify details of a block. If you press f3+h you will get
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dragon6810/dragon6810.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
