@@ -37,49 +37,77 @@ and heres what it gives us:
 
 ```
 title <player> <raw json title>
-```.Let's say we want to make it say in red "hello". We type:
- ```
+```
+
+Let's say we want to make it say in red "hello". We type:
+
+```
  /title @a title ["",{"text":"Hello","color":"red"},""]
-```.
+```
+
 ## scoreboard
+
 Scoreboard is a good way to keep track of what's going on  in the game. We type in /scoreboard, and here's what we get:
+
 ```
 /scoreboard <objectives:players:teams>...
 ```
+
 We know by the elipses there's more; but let's focus the command. We want to add an objective, so let's type
+
 ```
 /scoreboard objectives
-```, and here's what we get:
+```
+
+and here's what we get:
+
 ```
 /scoreboard objectives <list:add:remove:setdisplay>...
 ```
+
 We want to add an objective, so we type in:
+
 ```
 /scoreboard objectives add
 ```
+
 , and here's what we get:
+
 ```
 /scoreboard objectives add <name> <criteriaType> [displayName...]
+
 ```.
 We want to keep track of our deaths, so we type:
+
 ```
 /scoreboard obbjectives add deaths deathCount deaths
 ```.
+
 Now, we need to set its display. We type:
+
 ```
 /scoreboard objectives setdisplay
-```, and it gives us:
+
+```
+
+, and it gives us:
+
 ```
 /scoreboard objectives setdisplay <slot> [objective]
 ```
+
 There are many slots, but let's use sidebar. We type:
+
 ```
 /scoreboard objectives setdisplay sidebar deaths
-```.
+```
+
 As far as we can see, nothing's there! That's because it has no players to list. You can do the same setdisplay, but with list and press tab; or you can do 
+
 ```
 /scoreboard players
 ```
+
 ,but if you made it this far, the **syntax** should be easy enough to understand.
 
 ## Execute
