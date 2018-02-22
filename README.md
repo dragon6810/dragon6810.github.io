@@ -9,7 +9,7 @@ A command block is a block that you can insert a special code that mojang create
 ## The Different Types Of Command Blocks
 There are 3 types of command blocks and each one has it's own property. Here they Are:
 - Impulse command blocks are the default, and the only ones in 1.8. They simply execute the command once, and nothing else.
-- Chain command blocks act as a chain. (Hence its name). The arrow points in the direction that the redstone source will    come out of, so make sure that's where you put your next command block. 
+- Chain command blocks act as a chain. (Hence its name). The arrow points in the direction that the redstone source will    come out of, so make sure that's where you put your next command block.
 - Repeating command blocks repeat the command on always active, or a constant redstone signal if on needs redstone.
 
 ## DataTags
@@ -20,7 +20,7 @@ Summon summons an **entity**. (an **entity** is anything that moves in the game,
 
 ```
 /summon <EntityName> [X] [Y] [Z] [dataTag]
-``` 
+```
 At [grahamedgecombe](https://minecraft-ids.grahamedgecombe.com/entities) there is a good set of **entities**.
 For X Y Z lets use **relative coordinates**. **Relative coordinates** are coordinates, but what ever is executing the command thinks it is in the center of the world. The command block/player has to have tildes (~ ~ ~) for it to use **relative coordinates**. If you don't want to target the thing that the command is being executed in, you can type in the number of blocks in that direction after the tilde with no spaces.
 
@@ -102,7 +102,7 @@ There are many slots, but let's use sidebar. We type:
 /scoreboard objectives setdisplay sidebar deaths
 ```
 
-As far as we can see, nothing's there! That's because it has no players to list. You can do the same setdisplay, but with list and press tab; or you can do 
+As far as we can see, nothing's there! That's because it has no players to list. You can do the same setdisplay, but with list and press tab; or you can do
 
 ```
 /scoreboard players
@@ -111,13 +111,13 @@ As far as we can see, nothing's there! That's because it has no players to list.
 But if you made it this far, the **syntax** should be easy enough to understand.
 
 ## Execute
-You might somtimes want to only **execute** a command if the command block detects something, or you might want to have something have near to a player, regaurdless of their location. The anwser? **Execute.** There are two versions of execute here they are:
+You might somtimes want to only **execute** a command if the command block detects something, or you might want to have something have near to a player, regardless of their location. The answer? **Execute.** There are two versions of execute here they are:
 
 ```
 /execute <entity> <x> <y> <z> <command> OR /execute <entity> <x> <y> <z> detect <x> <y> <z> <block> <datValue:-1:state:*> <command>
 ```
 
-The first **execute** command can detect where an **entity** is, an execute the command based on that. The second **execute** command is like a detecter for blocks, and we'll cover those later. If there isn't a block state, just tpye `*`.
+The first **execute** command can detect where an **entity** is, an execute the command based on that. The second **execute** command is like a detecter for blocks, and we'll cover those later. If there isn't a block state, just type `*`.
 
 ### Jekyll Themes
 
