@@ -76,11 +76,11 @@ There are many slots, but let's use sidebar. We type:
 ```
 /scoreboard objectives setdisplay sidebar deaths
 ```.
-As far as we can see, nothing's there! That's because it has no players to list! Ypu can do the same setdisplay, but with list and press tab; or you can do 
+As far as we can see, nothing's there! That's because it has no players to list. You can do the same setdisplay, but with list and press tab; or you can do 
 ```
 /scoreboard players
-```,
-But if you made it this far, the **syntax** should be easy enough to understand.
+```
+,but if you made it this far, the **syntax** should be easy enough to understand.
 
 ## Execute
 You might somtimes want to only execute a command if the command block detects something, or you might want to have something have near to a player, regaurdless of their location. The anwser? Execute.
