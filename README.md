@@ -16,7 +16,7 @@ There are 3 types of command blocks and each one has it's own property. Here the
 Some commands can inclued dataTags. DataTags are special NBT tags to add to some commands. A useful one about armor stands is at [digminecraft](https://www.digminecraft.com/data_tags/armor_stand.php). When you get there you can click on the tab the upper-left corner that says dataTags to cover the rest of dataTags.
 
 ## Summon
-summon summons an entity (an entity is anything that moves in the game, even an arrow or eye of ender). We type in /summon into the chat, and here's what we get:
+Summon summons an entity (an entity is anything that moves in the game, even an arrow or eye of ender). We type in /summon into the chat, and here's what we get:
 
 ```
 /summon <EntityName> [X] [Y] [Z] [dataTag]
@@ -83,7 +83,7 @@ As far as we can see, nothing's there! That's because it has no players to list!
 But if you made it this far, the **syntax** should be easy enough to understand.
 
 ## Execute
-
+You might somtimes want to only execute a command if the command block detects something, or you might want to have something have near to a player, regaurdless of their location. The anwser? Execute.
 
 ### Jekyll Themes
 
