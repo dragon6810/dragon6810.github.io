@@ -114,7 +114,7 @@ As far as we can see, nothing's there! That's because it has no players to list.
 You might somtimes want to only execute a command if the command block detects something, or you might want to have something have near to a player, regaurdless of their location. The anwser? Execute. There are two versions of execute here they are:
 
 ```
-/execute <entity> 
+/execute <entity> <x> <y> <z> <command> OR /execute <entity> <x> <y> <z>
 
 ### Jekyll Themes
 
