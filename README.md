@@ -71,7 +71,7 @@ We want to add an objective, so we type in:
 /scoreboard objectives add
 ```
 
-, and here's what we get:
+and here's what we get:
 
 ```
 /scoreboard objectives add <name> <criteriaType> [displayName...]
@@ -81,7 +81,7 @@ We want to add an objective, so we type in:
 We want to keep track of our deaths, so we type:
 
 ```
-/scoreboard obbjectives add deaths deathCount deaths
+/scoreboard objectives add deaths deathCount deaths
 ```
 
 Now, we need to set its display. We type:
@@ -90,7 +90,7 @@ Now, we need to set its display. We type:
 /scoreboard objectives setdisplay
 ```
 
-, and it gives us:
+and it gives us:
 
 ```
 /scoreboard objectives setdisplay <slot> [objective]
@@ -114,10 +114,10 @@ But if you made it this far, the **syntax** should be easy enough to understand.
 You might somtimes want to only **execute** a command if the command block detects something, or you might want to have something have near to a player, regaurdless of their location. The anwser? **Execute.** There are two versions of execute here they are:
 
 ```
-/execute <entity> <x> <y> <z> <command> OR /execute <entity> <x> <y> <z> detect <x> <y> <z> <block> <datValue:-1:state:*>
+/execute <entity> <x> <y> <z> <command> OR /execute <entity> <x> <y> <z> detect <x> <y> <z> <block> <datValue:-1:state:*> <command>
 ```
 
-The first **execute** command can detect where an **entity** is, an execute the command based on that.
+The first **execute** command can detect where an **entity** is, an execute the command based on that. The second **execute** command is like a detecter for blocks, and we'll cover those later. If there isn't a block state, just tpye `*`.
 
 ### Jekyll Themes
 
