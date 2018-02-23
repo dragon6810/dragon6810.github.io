@@ -135,7 +135,15 @@ Many of you are probobaly farmiliar with /give. We type it in, and get:
 /give <player> <item> [amount] [data] [dataTag]
 ```
 There's a good of item data tags at [HyPixel](https://hypixel.net/threads/guide-data-tags-in-commands.34772/).
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dragon6810/dragon6810.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+## Tellraw
+**Tellraw** is a command that might as well be right next door to title. **Tellraw** gives a special Json message to a player. As you might have noticed in title all Json messages in 1.12.2 are typed like this:
+
+```
+/<Json command> <player> ["",{"text":"<text>","<dataTag>":"<dataTagSetting>"},""]
+```
+
+For **tellraw** you can do many settings, like _clickEvent_, and _color_. DataTagSettings are sometimes true or false, or what color its in, or the click event etc. 
 
 ### Support or Contact
 
