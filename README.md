@@ -126,7 +126,7 @@ If you want to get a color of glass, like red, you wouldn't type
 /give @p  minecraft:red_glass
 ```
 
-You'd use **dataValues**. **DataValues** specify details of a block. If you press f3+h you will get a bunch of data tags when you select a block that has one.
+You'd use **dataValues**. **DataValues** specify details of a block. If you press f3+h you will get a bunch of **dataValues** when you select a block that has one.
 
 ## Give
 Many of you are probobaly farmiliar with /give. We type it in, and get:
