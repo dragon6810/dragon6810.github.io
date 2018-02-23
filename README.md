@@ -145,6 +145,15 @@ There's a good of item data tags at [HyPixel](https://hypixel.net/threads/guide-
 
 For **tellraw** you can do many settings, like _clickEvent_, and _color_. DataTagSettings are sometimes true or false, or what color its in, or the click event etc. 
 
+## Particle
+You might want particles somewhere, but nothings creating them. Then, you can use particle. We type /particle, and get:
+
+```
+/particle <name> <x> <y> <z> <xd> <yd> <zd> <speed> [count] [mode] [player] [params]
+```
+
+There is a big list of particle names at the [minecraft wiki](https://minecraft.gamepedia.com/Particles). The <xd> <yd> <zd>
+ are the **volumeDemensions** of the particles. It means that many blocks in that direction.
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
