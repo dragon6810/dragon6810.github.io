@@ -126,8 +126,15 @@ If you want to get a color of glass, like red, you wouldn't type
 /give @p  minecraft:red_glass
 ```
 
-You'd use **dataValues**. **DataValues** specify details of a block. If you press f3+h you will get
+You'd use **dataValues**. **DataValues** specify details of a block. If you press f3+h you will get a bunch of data tags when you select a block that has one.
 
+## Give
+Many of you are probobaly farmiliar with /give. We type it in, and get:
+
+```
+/give <player> <item> [amount] [data] [dataTag]
+```
+There's a good of item data tags at [HyPixel](https://hypixel.net/threads/guide-data-tags-in-commands.34772/).
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dragon6810/dragon6810.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
