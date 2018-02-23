@@ -155,7 +155,42 @@ You might want particles somewhere, but nothings creating them. Then, you can us
 ```
 
 There is a big list of particle names at the [minecraft wiki](https://minecraft.gamepedia.com/Particles). The <xd> <yd> <zd>
- are the **volumeDemensions** of the particles. It means that many blocks in that direction.
+ are the **volumeDemensions** of the particles. It means that many blocks in that direction. The speed is how fast the particles move. The count is how many particles there are. The mode is more complicated, so you can learn about it in a different guide. The params are also cmplicated, so you can learn about it in a different guide.
+ 
+## Advancement
+You might make a map that has an item that you can get advancement when using/crafting. We type /advancement, and get:
+
+```
+/advancement <grant:revoke:test> <player>
+```
+
+We want to grant advancements to our selves, so we tpye: 
+
+```
+/advancement grant @p
+```
+
+and it gives us:
+
+```
+/advancement grant <player> <only:until:from:through:everything>
+```
+
+We want to grant everything to ourselves, so we type:
+
+```
+/advancement grant @p everything
+```
+
+and there we go! We were given every advancement in minecraft.
+
+## Weather
+You are probobaly all farmiliar with weather, but may not. We type n /weather, and get:
+
+```
+/weather <clear:rain:thunder> [duration in seconds]
+```
+It means by duration in seconds how long it will be like this, 99999 means forever.
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
