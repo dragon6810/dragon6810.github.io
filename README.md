@@ -191,6 +191,5 @@ You are probobaly all farmiliar with weather, but may not. We type n /weather, a
 /weather <clear:rain:thunder> [duration in seconds]
 ```
 It means by duration in seconds how long it will be like this, 99999 means forever.
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Time
