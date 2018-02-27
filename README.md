@@ -212,6 +212,6 @@ Gamerule toggles a gamerule. We type /gamerule, and get:
 Here are most of the gamerules:
 gamerule    | defenition
 ------------|------------------
-keepInventory| toggles wether you keep your inventory when you die
-                 
+keepInventory | toggles wether you keep your inventory when you die
+doMobSpawning | toggles wether hostile or netral mobs spawn                 
 
