@@ -193,3 +193,31 @@ You are probobaly all farmiliar with weather, but may not. We type n /weather, a
 It means by duration in seconds how long it will be like this, 99999 means forever.
 
 ## Time
+Time is similar to weather, exept it toggles the time. We type /time, and get:
+
+```
+/time <add:query:set> <value>
+```
+
+
+The **syntax** should now be understandable.
+
+## Gamerule
+Gamerule toggles a gamerule. We type /gamerule, and get:
+
+```
+/gamerule <rule> [value]
+```
+
+Here are most of the gamerules:
+gamerule         | defenition
+------------------------------------
+keepInventory    | toggles wether you keep your inventory when you die
+                 |
+                 |
+                 |
+                 |
+                 |
+                 |
+                 |
+|
