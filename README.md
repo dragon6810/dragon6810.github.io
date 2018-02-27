@@ -214,5 +214,6 @@ Here are most of the gamerules:
    gamerule | defenition
 ------------|------------------
 keepInventory | toggles wether you keep your inventory when you die
-doMobSpawning | toggles wether hostile or netral mobs spawn                 
-
+doMobSpawning | toggles wether hostile or nutral mobs spawn
+randomTickSpeed | how fast everything like grass growing happens
+doMobLoot | toggles wether mobs drop their loot or not
