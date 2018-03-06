@@ -209,7 +209,7 @@ Gamerule toggles a gamerule. We type /gamerule, and get:
 /gamerule <rule> [value]
 ```
 
-Here are most of the gamerules:
+Here are a few of the gamerules:
    
    gamerule | defenition
 ------------|------------------
@@ -217,3 +217,6 @@ keepInventory | toggles wether you keep your inventory when you die
 doMobSpawning | toggles wether hostile or nutral mobs spawn
 randomTickSpeed | how fast everything like grass growing happens
 doMobLoot | toggles wether mobs drop their loot or not
+commandBlockOutput | toggles wether or not command blocks say if they successfully executed their command
+doLimitedCrafting | toggles wether or not players have limited crafting or not
+doLimited crafting
